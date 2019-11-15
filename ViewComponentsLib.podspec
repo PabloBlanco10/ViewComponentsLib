@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = spec.summary
+  spec.description  = "A long description of ViewComponentsLib"
 
   spec.homepage     = "https://github.com/PabloBlanco10/Cocoapods-Components"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -50,9 +50,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Pablo Blanco Peris" => "pblanc21@corp.vodafone.es" }
-  # Or just: spec.author    = "Pablo Blanco Peris"
-  # spec.authors            = { "Pablo Blanco Peris" => "pblanc21@corp.vodafone.es" }
+
+  spec.authors            = { "Pablo Blanco Peris" => "pabloblancoperis@gmail.com", "Javier Giner Álvarez" => "jgineralvarez@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Pablo Blanco Peris"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'ViewComponentsLib/ViewComponentsLib/ViewComponentsLib.h'
+  spec.source_files  = 'ViewComponentsLib/**/*.h'
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
