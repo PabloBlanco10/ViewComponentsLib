@@ -7,18 +7,19 @@
 
 import SwiftUI
 import ViewComponentsLib
-import Pods_ViewComponentsLib
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello World")
+        VStack(spacing: 10) {
+            CapsuleText(text: "CHUPAME")
+            CapsuleText(text: "LOS HUEVOS")
+        }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-    
 }

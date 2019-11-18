@@ -5,7 +5,20 @@
 //  Created by Pablo Blanco Peris on 18/11/2019.
 //
 
-import Foundation
-import UIKit
+import SwiftUI
 
-public class ExampleLabel : UILabel {override public var text: String? {didSet{textColor = UIColor.red}}}
+public struct CapsuleText : View {
+     
+    public init(text : String) {self.text = text}
+    
+    public var text: String
+    
+    public var body: some View {
+        Text(text)
+        .font(.largeTitle)
+        .padding()
+        .foregroundColor(.white)
+        .background(Color.blue)
+        .clipShape(Capsule())
+    }
+}
