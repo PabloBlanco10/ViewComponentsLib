@@ -17,16 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ViewComponentsLib"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of ViewComponentsLib."
+  spec.summary      = "ViewComponentsLib will be a pod with some nice View Components"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "A long description of ViewComponentsLib"
+  spec.description  = "ViewComponentsLib is a pod with some nice View Components"
 
-  spec.homepage     = "https://github.com/PabloBlanco10/Cocoapods-Components"
+  spec.homepage     = "https://github.com/PabloBlanco10/ViewComponentsLib"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source       = { :git => "https://github.com/PabloBlanco10/Cocoapods-Components.git", :tag => "v#{spec.version}" }
-  spec.source       = { :git => "https://github.com/PabloBlanco10/Cocoapods-Components.git", :tag => "master" }
+  spec.source       = { :git => "https://github.com/PabloBlanco10/ViewComponentsLib.git", :tag => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
