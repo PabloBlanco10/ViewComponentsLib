@@ -78,6 +78,7 @@ Pod::Spec.new do |spec|
 
   #spec.source       = { :git => "https://github.com/PabloBlanco10/Cocoapods-Components.git", :tag => "v#{spec.version}" }
   spec.source       = { :git => "https://github.com/PabloBlanco10/ViewComponentsLib.git", :tag => "master" }
+  spec.source       = { :git => "https://github.com/PabloBlanco10/ViewComponentsLib.git", :tag => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -114,7 +115,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  #spec.framework  = "UIKit" , "XCTest"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

@@ -10,6 +10,14 @@ target 'ViewComponentsLib' do
   target 'ViewComponentsLibTests' do
     inherit! :search_paths
     # Pods for testing
+    #pod 'ViewComponentsLib', :path => '../'
   end
-
+  
+  target 'ViewComponentsLibTest' do
+    use_frameworks!
+    # Pods for testing
+    pod 'ViewComponentsLib' , :path => '/Users/pabloblancoperis/working copy/CocoapodsComponents'
+    #pod 'ViewComponentsLib', :path => '../'
+  end
+  
 end

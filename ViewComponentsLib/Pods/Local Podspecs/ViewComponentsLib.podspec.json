@@ -1,0 +1,25 @@
+{
+  "name": "ViewComponentsLib",
+  "version": "1.0.0",
+  "summary": "ViewComponentsLib will be a pod with some nice View Components",
+  "description": "ViewComponentsLib is a pod with some nice View Components",
+  "homepage": "https://github.com/PabloBlanco10/ViewComponentsLib",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Pablo Blanco Peris": "pabloblancoperis@gmail.com",
+    "Javier Giner Álvarez": "jgineralvarez@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PabloBlanco10/ViewComponentsLib.git",
+    "tag": "master"
+  },
+  "source_files": "ViewComponentsLib/**/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

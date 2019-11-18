@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 3b5d11bf4aba5ee601f4c311aa7e87f74c21ae0d
+PODS:
+  - ViewComponentsLib (1.0.0)
+
+DEPENDENCIES:
+  - ViewComponentsLib (from `/Users/pabloblancoperis/working copy/CocoapodsComponents`)
+
+EXTERNAL SOURCES:
+  ViewComponentsLib:
+    :path: "/Users/pabloblancoperis/working copy/CocoapodsComponents"
+
+SPEC CHECKSUMS:
+  ViewComponentsLib: 1c4e74374cba85a8dd026347dcbcb0ea9bdcf5b5
+
+PODFILE CHECKSUM: c0adc86bbc57767344024719a505a9b904da308f
 
 COCOAPODS: 1.7.5
